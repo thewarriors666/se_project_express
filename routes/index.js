@@ -1,9 +1,17 @@
 const router = require("express").Router();
-const { BAD_REQUEST, NOT_FOUND, SERVER_ERROR } = require("../utils/error");
+const { NOT_FOUND } = require("../utils/error");
+const { login, createUser } = require("../controllers/users");
+const { getItems } = require("../controllers/clothingItem");
+const auth = require("../middlewares/auth");
 
 const userRouter = require("./users");
 const clothingItem = require("./clothingItem");
 
+router.post("/signin", login);
+router.post("/signup", createUser);
+router.get("/items", getItems);
+
+router.use(auth);
 router.use("/users", userRouter);
 router.use("/items", clothingItem);
 
