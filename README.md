@@ -12,6 +12,6 @@
 
 - Screenshots, GIFs, or a demo video
 
--- Video Demo -- https://youtu.be/XDv\_1lAuim0 --
+-- Video Demo -- https://www.youtube.com/watch?v=XDv_1lAuim0 --
 
 // json-server --watch db.json --id \_id --port 3001 //
