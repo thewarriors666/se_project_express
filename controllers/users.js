@@ -84,9 +84,9 @@ const login = (req, res) => {
   const { email, password } = req.body;
 
   if (!email || !password) {
-    return res;
-    status(BAD_REQUEST);
-    send({ message: "Email and Password are required" });
+    return res
+      .status(BAD_REQUEST)
+      .send({ message: "Email and Password are required" });
   }
 
   return User.findUserByCredentials(email, password)
