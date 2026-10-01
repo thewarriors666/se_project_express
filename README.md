@@ -4,7 +4,7 @@
 
 - Link to the backend repo
 
--- https://github.com/thewarriors666/se\_project\_react --
+-- https://github.com/thewarriors666/se_project_react --
 
 - Technologies and techniques used are as follows
 
