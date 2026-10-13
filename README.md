@@ -1,17 +1,19 @@
-- Name and description
+# WTWR Backend
 
--- What to Wear, is an app that finds the users location and determines the weather for that day and what clothes are appropriate for those weather conditions, can also create a user profile and add/remove custom clothes that the user can add to the list.
+What to Wear (WTWR) is an application that uses a user's location and local weather to suggest appropriate clothing. Users can create a profile and add or remove clothing items.
 
-- Link to the backend repo
+## Repository
 
--- https://github.com/thewarriors666/se_project_react --
+This is the backend repository: [thewarriors666/se_project_express](https://github.com/thewarriors666/se_project_express).
 
-- Technologies and techniques used are as follows
+## Technologies
 
--- CSS, HTML, VSCode, Javascript, Vite, React, Express, node
+JavaScript, Node.js, Express, MongoDB, HTML, and CSS.
 
-- Screenshots, GIFs, or a demo video
+## Demo
 
--- Video Demo -- https://www.youtube.com/watch?v=XDv_1lAuim0 --
+[Video demo](https://www.youtube.com/watch?v=XDv_1lAuim0)
 
-// json-server --watch db.json --id \_id --port 3001 //
+## Run locally
+
+Run `npm run start` to start the server. Run `npm run dev` to start it with nodemon.
